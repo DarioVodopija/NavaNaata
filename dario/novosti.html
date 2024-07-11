@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ccc;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            color: #2d3e50;
+            padding: 10px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            height: 90px;
+        }
+        .header nav a {
+            color: #2d3e50;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #2d3e50;
+        }
+        h2 {
+            color: #2d3e50;
+        }
+        .vijest {
+            background-color: white;
+            display: flex;
+            align-items: left;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .vijest img {
+            width: 500px;
+            height: 400px;
+            background-color: #ddd;
+            margin-right: 20px;
+            display: flex;
+            align-items: left;
+            justify-content: center;
+            font-size: 14px;
+            color: #777;
+        }
+        .opis {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+        }
+        .opis2 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+        }
+        .više {
+            width: 50px;
+            background-color: #ddd;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="img/tvz.png" alt="TVZ Logo">
+        <nav>
+            <a href="#">STUDIJI</a>
+            <a href="#">LOKACIJE</a>
+            <a href="#">NOVOSTI</a>
+            <a href="#">ZA STUDENTE</a>
+            <a href="#">KONTAKTI</a>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Aktualne vijesti</h1>
+        <div class="vijest">
+            <img src="img/park.jpg" alt="slika">
+            <div class="opis">
+                <div class="opis2">
+                    <h2>TVZ gradi park</h2>
+                    <p>Tvz je prebacio veliku kolićinu novca u izgradnju parka</p>
+                    <button class="više">Više</button>
+                </div>
+            </div>
+        </div>
+        <div class="vijest">
+            <img src="img/lab.jpg" alt="slika">
+            <div class="opis">
+                <div class="opis2">
+                    <h2>Novi MAC laboratorij</h2>
+                    <p>Uskoro će završiti rad na novom MAC laboratoriju</p>
+                    <button class="više">Više</button>
+                </div>
+            </div>
+        </div>
+        <div class="vijest">
+            <img src="img/davor.jpg" alt="slika">
+            <div class="opis">
+                <div class="opis2">
+                    <h2>Prodekan se ne mijenja</h2>
+                    <p>Davor Cafuta ostaje prodekan TVZ-a</p>
+                    <button class="više">Više</button>
+                </div>
+            </div>
+        </div>
+        <div class="vijest">
+            <img src="img/check.jpg" alt="slika">
+            <div class="opis">
+                <div class="opis2">
+                    <h2>Projekt Završen</h2>
+                    <p>Tim Naava Nata završava projekt</p>
+                    <button class="više">Više</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
